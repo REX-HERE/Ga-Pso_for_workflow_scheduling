@@ -17,6 +17,11 @@ public class Main {
         }
         ss.gbest.print_velocity();
         ss.gbest.print_chromosome();
+        ss.gbest.print_schedule();
+        System.out.println();
+
+        Population test = new Population();
+        test.Driver();
     }
     // (1 : 3), (3 : 3), (4 : 2), (2 : 1), (5 : 3), (6 : 2), (9 : 2), (7 : 3), (8 : 1), (10 : 2),
 }
